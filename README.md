@@ -15,7 +15,8 @@ This Python tool allows you to download html, css and js codes of any website yo
 - BeautifulSoup4  
 - Requests  
 - Colorama  
-- Webbrowser  
+- Webbrowser
+- Webdriver-manager
 - Selenium
 
 # INSTALLATION
@@ -23,6 +24,10 @@ sudo git clone https://github.com/charliecpln/webminer.git
 cd webdownloader  
 pip install -r requirements.txt  
 sudo python webminer.py  
+
+# WARNING
+**Warning:** It is recommended to use in Windows operating systems. In some cases, driver errors occur in Linux operating systems and you need to resolve these errors manually.  
+**Uyarı:** Windows işletim sistemlerinde kullanılması önerilir. Bazı durumlarda Linux işletim sistemlerinde sürücü hataları oluşur ve bu hataları manuel olarak çözmeniz gerekir.  
 
 # TÜRKÇE
 Bu Python aracı istediğiniz herhangi bir web sitesinin html, css ve js kodlarını indirmenize olanak tanır
