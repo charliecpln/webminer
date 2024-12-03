@@ -27,6 +27,7 @@ sudo python webminer.py
 
 # WARNING
 **Warning:** It is recommended to use in Windows operating systems. In some cases, driver errors occur in Linux operating systems and you need to resolve these errors manually.  
+
 **Uyarı:** Windows işletim sistemlerinde kullanılması önerilir. Bazı durumlarda Linux işletim sistemlerinde sürücü hataları oluşur ve bu hataları manuel olarak çözmeniz gerekir.  
 
 # TÜRKÇE
