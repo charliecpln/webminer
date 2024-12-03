@@ -1,38 +1,40 @@
 # webdownloader
-This Python script pulls HTML content from a URL you specify
-
-# ENGLISH
-This Python script pulls HTML content from a URL you specify and uses the BeautifulSoup library to display it in a readable format. The user can save the HTML content to a file and open it in the browser. The script checks if the user libraries are loaded and automatically loads them if necessary.  
+This Python tool allows you to download html, css and js codes of any website you want
 
 **Features:**
 
-- Retrieve HTML content from the target URL
-- Display HTML content in a readable format
-- Save to a user-specified file name
-- Open the file in the browser
+- Download html, css and js files  
+- Display HTML content in a readable format  
+- Optionally can be run from localhost  
+- Optional automatic installation  
 
 **Requirements:**
 
 - Python 3
-- BeautifulSoup4
-- Requests
-- Colorama
-- Webbrowser
+- Web Driver
+- BeautifulSoup4  
+- Requests  
+- Colorama  
+- Webbrowser  
+- Selenium
 
 # INSTALLATION
-sudo git clone https://github.com/charliecpln/webdownloader.git  
+sudo git clone https://github.com/charliecpln/webminer.git  
 cd webdownloader  
-python webdownloader.py  
+pip install -r requirements.txt  
+sudo python webminer.py  
 
 # TÜRKÇE
-Bu Python scripti, belirttiğiniz bir URL'den HTML içeriğini çekmekte ve bunu okunabilir bir formatta göstermek için BeautifulSoup kütüphanesini kullanmaktadır. Kullanıcı, HTML içeriğini bir dosyaya kaydedebilir ve tarayıcıda açabilir. Script, kullanıcı kütüphanelerinin yüklü olup olmadığını kontrol eder ve gerekirse otomatik olarak yükler.
+Bu Python aracı istediğiniz herhangi bir web sitesinin html, css ve js kodlarını indirmenize olanak tanır
 
 **Özellikler:**
-- Hedef URL'den HTML içeriğini çekme
-- HTML içeriğini okunabilir formatta gösterme
-- Kullanıcı tarafından belirlenen dosya adına kaydetme
-- Tarayıcıda dosyayı açma
+- Html, css ve js dosyalarını indirin  
+- HTML içeriğini okunabilir bir biçimde görüntüleyin  
+- İsteğe bağlı olarak localhost'tan çalıştırılabilir  
+- İsteğe bağlı otomatik kurulum  
 
 # CONTACT
 Discord: @charliecpln  
 Telegram: @charliecpln  
+Github: @charliecpln  
+TurkHackTeam: @charliex2  
